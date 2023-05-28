@@ -28,7 +28,7 @@ namespace RealEstate.Models
             };
             category = new()
             {
-                id = int.Parse(line.Split(";")[12]),
+                id = int.Parse(splitedLine[12]),
                 name = splitedLine[13]
             };
         }
